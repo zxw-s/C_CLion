@@ -1,0 +1,68 @@
+# ====================== 通用系统忽略 ======================
+# Windows
+Thumbs.db
+Desktop.ini
+# macOS
+.DS_Store
+.AppleDouble
+# Linux
+*~
+
+# ===================== 日志、临时文件 =====================
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# ====================== CLion / JetBrains IDE 缓存 ================
+.idea/
+cmake-build-*/
+cmake-build-release/
+cmake-build-debug/
+# 如果你想保留CLion运行配置，取消下面一行注释
+# !.idea/runConfigurations/
+*.iml
+*.iws
+*.ipr
+
+# ========== CMake 自动生成文件 ==========
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+# ====================== ASM / C / C++ 汇编、C、C++ ======================
+# 编译产物
+*.o
+*.obj
+*.exe
+*.out
+*.dll
+*.so
+*.a
+*.lib
+*.elf
+*.hex
+*.bin
+*.dylib
+# 编译中间文件
+*.i
+*.s
+# 调试文件
+*.pdb
+*.map
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake-build-*/
+# Dev-C++ / MinGW 临时文件
+*.bak
+*.layout
+*.depend
+
+# ========== 可选：如果项目使用vcpkg，取消下面 ==========
+# vcpkg/
+# vcpkg_installed/
